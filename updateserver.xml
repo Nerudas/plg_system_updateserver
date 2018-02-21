@@ -28,8 +28,8 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server type="extension" priority="1" name="System - Update Server Plugin">
-			https://update.nerudas.ru/?extension=plg_system_updateserver
+		<server type="extension" priority="1" name="System - Profiles Plugin">
+			https://update.nerudas.ru/?extension=plg_system_profiles
 		</server>
 	</updateservers>
 </extension>
