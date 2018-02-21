@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_UPDATESERVER</name>
+	<author>Nerudas</author>
+	<creationDate>February 2018</creationDate>
+	<copyright>Copyright (c) 2015 - 2018 Nerudas. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@nerudas.ru</authorEmail>
+	<authorUrl>nerudas.ru</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_UPDATESERVER_DESCRIPTION</description>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_updateserver.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_updateserver.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_updateserver.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_updateserver.sys.ini</language>
+	</languages>
+	<files>
+		<filename plugin="updateserver">updateserver.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="redirect" type="text"
+					   label="PLG_SYSTEM_UPDATESERVER_REDIRECT"
+					   class="input-xxlarge"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
